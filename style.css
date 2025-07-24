@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* shared style */
+
+.ash-color{
+  color: #8987A1;
+}
+.orange-color{
+  color: #E95A08;
+}
+
+.flex{
+  display: flex;
+}
+
+body{
+   font-family: "Inter", sans-serif;
+}
+
+nav{
+  max-width: 1140px;
+  margin: 1rem auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  list-style: none;
+  display: flex; 
+  gap: 2rem;
+ 
+}
+
+nav ul li a{
+  
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav i{
+   margin-left:  2rem;
+}
+
+
+
+
+/* responsive area */
+
+@media (max-width: 768px) {
+  nav{
+  max-width: 100%;
+  margin: 1rem;
+}
+nav ul{
+  display:none;
+ 
+}
+}
