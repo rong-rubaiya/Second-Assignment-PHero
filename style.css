@@ -188,4 +188,7 @@ nav i{
 .cards h3,p{
   font-size: 1rem;
 }
+.cards img{
+  width: 100%;
+}
 }
