@@ -24,6 +24,18 @@
   margin-bottom:1.5rem ;
 }
 
+.btn{
+  padding: 1rem 2rem;
+  width: 100%;
+  background-color: #E95A08;
+  color: white;
+  font-weight: 600;
+  border: none;
+  margin-top: 1rem;
+  /* width:100% ; */
+}
+
+
 body{
    font-family: "Inter", sans-serif;
 }
@@ -88,19 +100,44 @@ nav i{
   align-items: center;
   text-align: center;
 }
+/* !main ends here */
+.main-cards{
+  margin-top:2rem ;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 1rem;
+  
+}
 
+.cards{
+ margin-top: 2rem;
+  
+}
 
+.cards-detais{
+  text-align: center;
+}
 
+.cards h3{
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+.cards p{
+  margin-top:1rem ;
+   font-size: 1.3rem;
+   font-weight: bold;
+}
 
 /* responsive area */
 
 @media (max-width: 576px) {
   
-  nav,.header-intro {
+  nav,.header-intro,.main-cards {
    max-width: 100%;
    
     }
-  nav,.details h1,.details p{
+  nav,.details h1,.details p,.main-cards{
   margin: 1rem;
 }
   /* ?nav */
@@ -139,5 +176,16 @@ nav i{
 }
 .line-gap{
   display: none;
+}
+
+/* ?main-card */
+.main-cards{
+  
+  grid-template-columns: repeat(2, 1fr); 
+ 
+}
+
+.cards h3,p{
+  font-size: 1rem;
 }
 }
