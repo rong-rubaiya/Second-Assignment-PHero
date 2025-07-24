@@ -191,4 +191,7 @@ nav i{
 .cards img{
   width: 100%;
 }
+.card-hidden{
+  display: none;
+}
 }
