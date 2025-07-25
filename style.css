@@ -38,6 +38,7 @@
 
 body{
    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -245,6 +246,40 @@ nav i{
   font-size: 1rem;
 }
 
+/* footer-form start */
+.footer-subscribe{
+  margin-top: 3rem;
+  max-width: 100%;
+  min-height:533px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.footer-subscribe h1{
+  color: aliceblue;
+}
+.footer-subscribe form  {
+display: flex;
+align-items: center;
+}
+
+#email-form{
+  
+  height: 3rem;
+  padding-left: 1rem;
+}
+
+#btn{
+  width: 186px;
+  height: 3rem;
+  margin-top: 0;
+}
+
 
 /* responsive area */
 
@@ -334,7 +369,7 @@ nav i{
   gap: 1.2rem;
 }
 .img-part img{
-  width:100%;
+  width:80%;
 }
 
 .details-part ul{
@@ -345,6 +380,8 @@ nav i{
   
 }
 
+/* ?latest deal+flower img part */
+
 .flower-img-part{
   grid-template-columns: 1fr;
  
@@ -354,11 +391,12 @@ nav i{
     grid-template-columns: 1fr;
   }
 .flower-img-part img,
-.blar-div,
-.blar-div-zabo{
+.blar-div
+{
   width:100%;
   /* margin-left:2rem; */
 }
+
 
 .blar-div-zabo{
   padding-top: 3rem;
@@ -368,4 +406,18 @@ nav i{
 .blar-div-zabo a {
   font-size: 1rem;
 }
+
+#email-form{
+  width:281px;
+  height: 3rem;
+  padding-left: 1rem;
+}
+
+#btn{
+  width: 103px;
+  height: 3rem;
+  margin-top: 0;
+  padding-right: 1rem;
+}
+
 }
