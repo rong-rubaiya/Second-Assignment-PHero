@@ -273,7 +273,7 @@ align-items: center;
 }
 
 #email-form{
-  
+  width: 646px;
   height: 3rem;
   padding-left: 1rem;
 }
@@ -414,27 +414,23 @@ nav i{
 }
   
  
-  
-  
-/* .image-box-zabo{
-  display: flex;
-} */
-
-
-
+  /* ?footer-subscribe */
+  .footer-subscribe{
+    min-height:276px ;
+  }
 
 
 #email-form{
-  width:281px;
-  height: 3rem;
+  width: auto;
+  height:50px;
   padding-left: 1rem;
 }
 
 #btn{
-  width: 103px;
-  height: 3rem;
+  width: auto;
+  height: 50px;
   margin-top: 0;
-  padding-right: 1rem;
 }
+
 
 }
