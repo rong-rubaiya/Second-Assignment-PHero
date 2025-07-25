@@ -58,7 +58,7 @@
           <h3>Lily Blossom</h3>
           <p>20 USD</p>
       </div>
-      <button class="btn">ADD TO CARD</button>
+      <button  class="btn">ADD TO CARD</button>
     </div>
 
     <div class="cards">
@@ -67,7 +67,7 @@
           <h3>Lily Blossom</h3>
           <p>20 USD</p>
       </div>
-      <button class="btn">ADD TO CARD</button>
+      <button  class="btn">ADD TO CARD</button>
     </div>
 
     <div class="cards">
@@ -76,7 +76,7 @@
           <h3>Lily Blossom</h3>
           <p>20 USD</p>
       </div>
-      <button class="btn">ADD TO CARD</button>
+      <button  class="btn">ADD TO CARD</button>
     </div>
 
     <div class="cards">
@@ -85,7 +85,7 @@
           <h3>Lily Blossom</h3>
           <p>20 USD</p>
       </div>
-      <button class="btn">ADD TO CARD</button>
+      <button  class="btn">ADD TO CARD</button>
     </div>
 
     <div class="cards">
@@ -94,7 +94,7 @@
           <h3>Lily Blossom</h3>
           <p>20 USD</p>
       </div>
-      <button class="btn">ADD TO CARD</button>
+      <button  class="btn">ADD TO CARD</button>
     </div>
 
     <div class="cards">
@@ -103,7 +103,7 @@
           <h3>Lily Blossom</h3>
           <p>20 USD</p>
       </div>
-      <button class="btn">ADD TO CARD</button>
+      <button  class="btn">ADD TO CARD</button>
     </div>
 
     <div class="cards card-hidden">
@@ -112,7 +112,7 @@
           <h3>Lily Blossom</h3>
           <p>20 USD</p>
       </div>
-      <button class="btn">ADD TO CARD</button>
+      <button  class="btn">ADD TO CARD</button>
     </div>
 
     <div class="cards card-hidden">
@@ -121,7 +121,7 @@
           <h3>Lily Blossom</h3>
           <p>20 USD</p>
       </div>
-      <button class="btn">ADD TO CARD</button>
+      <button  class="btn">ADD TO CARD</button>
     </div>
     
    </div>
@@ -156,7 +156,10 @@
     <p class="ash-color">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
    </div>
 
-
+<div class="extra ">
+  <span class="text-gradient">Limited Time Offer – Get Your Favorite Flowers at a Special Discount!</span>
+  
+</div>
    <div class="flower-img-part">
     <div class="double-img">
 
@@ -175,10 +178,6 @@
       <a href="#">Shop Now</a>
     </div>
      </div>
-
-
-     
-
     </div>
 
     <div class="zabo-plant">
@@ -187,18 +186,6 @@
       <h1>25% Off | Zabo Plant</h1>
       <a href="#">Shop Now</a>
     </div>
-
-      
-
-
-
-
-
-
-
-
-
-    
    </div>
 
 
@@ -213,7 +200,7 @@
     <h1 class="heading">Join the colorful Bunch</h1>
     <form action="">
       <input id="email-form" placeholder="Write email" type="email" name="" id="">
-       <input class="btn" id="btn"  type="button" value="Subscribe">
+       <input  id="btn"  type="button" value="Subscribe">
     </form>
    
   </div>
@@ -248,5 +235,15 @@
     </div>
   </div>
  </footer> 
+
+ <script>
+  const addToCartButtons = document.querySelectorAll('.btn');
+
+  addToCartButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+      alert("Flower Added to Cart 💐🌸🌷🪻🌹");
+    });
+  });
+</script>
 </body>
 </html>
