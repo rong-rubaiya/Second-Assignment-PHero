@@ -128,6 +128,32 @@ nav i{
    font-size: 1.3rem;
    font-weight: bold;
 }
+/* !trusted-seller starts here */
+.logo img {
+  width: 286px;
+  height: 286px;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.6));
+}
+.trusted-seller{
+  position: relative;
+  margin-top: 15rem;
+}
+.logo{
+  position: absolute;
+  top: -8rem;
+  left: 25rem;
+}
+.img-details-part{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  gap:8rem;
+  align-items: center;
+}
+.details-part li{
+  padding-bottom: 1rem;
+  font-size: 1.3rem;
+}
 
 /* responsive area */
 
@@ -135,11 +161,19 @@ nav i{
   
   nav,.header-intro,.main-cards {
    max-width: 100%;
-   
     }
-  nav,.details h1,.details p,.main-cards{
+   nav,
+  .details h1,
+  .details p,
+  .main-cards,
+  .img-details-part{
   margin: 1rem;
 }
+
+  .details h1,
+  .heading{
+    font-size: 1.5rem;
+  }
   /* ?nav */
   nav ul{
   display:none;
@@ -160,9 +194,7 @@ nav i{
   width: 100%;
 }
 
-.details h1{
-  font-size: 1.5rem;
-}
+
 
 /* ?main intro */
 
@@ -188,10 +220,36 @@ nav i{
 .cards h3,p{
   font-size: 1rem;
 }
+.cards p{
+  padding: 0 2rem;
+}
 .cards img{
   width: 100%;
 }
 .card-hidden{
   display: none;
 }
+
+/* ?trusted part */
+.trusted-seller{
+  margin-top:3.5rem;
+}
+.logo{
+  display: none;
+}
+.img-details-part{
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.img-part img{
+  width:100%;
+}
+
+.details-part ul{
+  padding: 0 3rem;
+}
+.details-part li{
+  font-size: 0.9rem;
+}
+
 }
