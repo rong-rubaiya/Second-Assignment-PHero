@@ -36,6 +36,10 @@
 }
 
 
+.hidden{
+  display: none;
+}
+
 body{
    font-family: "Inter", sans-serif;
     overflow-x: hidden;
@@ -369,7 +373,7 @@ nav i{
   gap: 1.2rem;
 }
 .img-part img{
-  width:80%;
+  width:100%;
 }
 
 .details-part ul{
@@ -382,30 +386,43 @@ nav i{
 
 /* ?latest deal+flower img part */
 
-.flower-img-part{
-  grid-template-columns: 1fr;
- 
-}
- .double-img {
-     
-    grid-template-columns: 1fr;
+ .flower-img-part {
+   display: flex;
+   flex-direction: column;
+   /* border: 1px solid red; */
+   
   }
-.flower-img-part img,
-.blar-div
-{
-  width:100%;
-  /* margin-left:2rem; */
-}
 
-
+  .image-box{
+    width: 100%;
+  }
+  .double-img {
+   width: 100%;
+  }
+  .zabo-plant{
+    max-height:226px ;
+  }
 .blar-div-zabo{
+  
   padding-top: 3rem;
-  font-size: 0.6rem;
+   font-size: 0.6rem;
+  height: 100%;
 }
 
-.blar-div-zabo a {
+.blar-div-zabo a{
   font-size: 1rem;
 }
+  
+ 
+  
+  
+/* .image-box-zabo{
+  display: flex;
+} */
+
+
+
+
 
 #email-form{
   width:281px;
