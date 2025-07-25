@@ -46,7 +46,9 @@ body{
 }
 
 
-header,main{
+header,
+main,
+.footer-last{
    max-width: 1140px;
    margin: 1rem auto;
 }
@@ -285,6 +287,43 @@ align-items: center;
 }
 
 
+/* ?footer last */
+.footer-last{
+  margin-top: 5rem;
+  display: flex;
+  gap: auto;
+  justify-content: space-between;
+  
+}
+
+.footer-last ul
+{
+  list-style: none;
+}
+.footer-last ul li{
+  padding-bottom: 2.5rem ;
+ 
+}
+
+.company{
+  /* border: 1px saddlebrown solid; */
+  width: 32%;
+  
+  
+}
+.company p{
+  font-size: 22px;
+  margin-top: 1.5rem;
+}
+.icon img{
+  padding-left: 1.5rem;
+  
+}
+
+.twitter{
+  
+  margin-bottom: 0.5rem;
+}
 /* responsive area */
 
 @media (max-width: 576px) {
@@ -418,19 +457,37 @@ nav i{
   .footer-subscribe{
     min-height:276px ;
   }
-
+form{
+  margin: 0 1rem;
+}
 
 #email-form{
-  width: 90%;
+  width:100%;
   height:50px;
   padding-left: 1rem;
 }
 
 #btn{
-    width: 40%;
+   width: 40%;
   height: 50px;
   margin-top: 0;
 }
 
+.footer-last{
+  flex-direction: column;
+  margin: 3rem 1rem;
+}
 
+.company{
+  /* border: 1px saddlebrown solid; */
+  width: 100%;
+  
+
+}
+
+.icon img{
+  
+  padding-left: 0;
+  padding-right: 1.5rem;
+}
 }
