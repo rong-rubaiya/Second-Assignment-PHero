@@ -155,6 +155,97 @@ nav i{
   font-size: 1.3rem;
 }
 
+/* !latest deals start here */
+
+
+.flower-img-part{
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1.7rem;
+}
+
+ .double-img {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.double-img img,
+.zabo-plant img {
+  border-radius: 1.2rem;
+}
+
+.zabo-plant {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+.blar-div-zabo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 98%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  text-align: center;
+  padding-top: 7rem;
+  font-size: 1.3rem;
+  border-radius: 1.2rem;
+}
+
+.blar-div-zabo a {
+  color: white;
+  font-size: 1.4rem;
+}
+.double-img {
+  display: grid;
+  gap: 20px;
+}
+
+.image-box {
+  position: relative;
+  height: 206px;
+  width: 366px;
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+.image-box img {
+  height: 100%;
+  width: 100%;
+  border-radius: 1.2rem;
+}
+
+.blar-div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 0.6rem;
+  border-radius: 1.2rem;
+}
+
+.blar-div h1,
+.blar-div-zabo h1 {
+  margin-bottom: 1.5rem;
+}
+
+.blar-div a {
+  color: white;
+  font-size: 1rem;
+}
+
+
 /* responsive area */
 
 @media (max-width: 576px) {
@@ -166,7 +257,8 @@ nav i{
   .details h1,
   .details p,
   .main-cards,
-  .img-details-part{
+  .img-details-part,
+  .flower-img-part{
   margin: 1rem;
 }
 
@@ -246,10 +338,34 @@ nav i{
 }
 
 .details-part ul{
-  padding: 0 3rem;
+  padding: 0 1rem;
 }
 .details-part li{
   font-size: 0.9rem;
+  
 }
 
+.flower-img-part{
+  grid-template-columns: 1fr;
+ 
+}
+ .double-img {
+     
+    grid-template-columns: 1fr;
+  }
+.flower-img-part img,
+.blar-div,
+.blar-div-zabo{
+  width:100%;
+  /* margin-left:2rem; */
+}
+
+.blar-div-zabo{
+  padding-top: 3rem;
+  font-size: 0.6rem;
+}
+
+.blar-div-zabo a {
+  font-size: 1rem;
+}
 }
